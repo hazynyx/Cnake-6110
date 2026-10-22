@@ -4,6 +4,18 @@ A retro-modern, minimalist re-imagining of the iconic Nokia 6110 Snake game for 
 
 ---
 
+## 📥 Ready-to-Install APKs
+
+Pre-built and signed installable APKs are provided directly in this repository:
+
+- **[Cnake-6110.apk](file:///C:/Users/user/Desktop/Cnake-6110/Cnake-6110.apk)** (Root folder, ~171 KB, signed release build)
+- **[apk/Cnake-6110-release.apk](file:///C:/Users/user/Desktop/Cnake-6110/apk/Cnake-6110-release.apk)** (Optimized release build)
+- **[apk/Cnake-6110-debug.apk](file:///C:/Users/user/Desktop/Cnake-6110/apk/Cnake-6110-debug.apk)** (Debug build with symbols)
+
+You can copy `Cnake-6110.apk` directly to your phone (e.g. Redmi 10 Prime) and tap to install immediately!
+
+---
+
 ## 🎮 Highlights & Features
 
 - **Focused on Redmi 10 Prime (1080×2400)**: Precision-calibrated for a 10-column by 20-row dot matrix grid with symmetrical margins and full cutout support across edge-to-edge displays.
@@ -86,7 +98,7 @@ app/src/main/java/com/snake/cnake6110/
    ```bash
    ./gradlew assembleRelease
    ```
-   Output: `app/build/outputs/apk/release/app-release-unsigned.apk` (~171 KB)
+   Output: `app/build/outputs/apk/release/app-release.apk` (~171 KB, signed and installable)
 
 ---
 
