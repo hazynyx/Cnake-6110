@@ -2,6 +2,10 @@
 
 A retro-modern, minimalist re-imagining of the iconic Nokia 6110 Snake game for Android, featuring an elegant 10×20 dot matrix aesthetic, fluid swipe controls, and an ultra-lightweight zero-bloat native architecture.
 
+<p align="center">
+  <img src="gameplay.gif" alt="Cnake-6110 Gameplay" width="280" />
+</p>
+
 ---
 
 ## 📥 Ready-to-Install APKs
