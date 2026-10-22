@@ -2,21 +2,32 @@
 
 A retro-modern, minimalist re-imagining of the iconic Nokia 6110 Snake game for Android, featuring an elegant 10×20 dot matrix aesthetic, fluid swipe controls, and an ultra-lightweight zero-bloat native architecture.
 
-<p align="center">
-  <img src="gameplay.gif" alt="Cnake-6110 Gameplay" width="280" />
-</p>
-
----
-
-## 📥 Ready-to-Install APKs
-
-Pre-built and signed installable APKs are provided directly in this repository:
-
-- **[Cnake-6110.apk](file:///C:/Users/user/Desktop/Cnake-6110/Cnake-6110.apk)** (Root folder, ~171 KB, signed release build)
-- **[apk/Cnake-6110-release.apk](file:///C:/Users/user/Desktop/Cnake-6110/apk/Cnake-6110-release.apk)** (Optimized release build)
-- **[apk/Cnake-6110-debug.apk](file:///C:/Users/user/Desktop/Cnake-6110/apk/Cnake-6110-debug.apk)** (Debug build with symbols)
-
-You can copy `Cnake-6110.apk` directly to your phone (e.g. Redmi 10 Prime) and tap to install immediately!
+<table>
+  <tr>
+    <td width="200" align="center" valign="top">
+      <img src="gameplay.gif" alt="Cnake-6110 Gameplay" width="180" />
+    </td>
+    <td valign="top">
+      <h3>📥 Ready-to-Install APKs</h3>
+      <p>Pre-built and signed installable APKs are provided directly in this repository:</p>
+      <ul>
+        <li><a href="Cnake-6110.apk"><b>Cnake-6110.apk</b></a> — Root folder (<b>~171 KB</b> signed release build)</li>
+        <li><a href="apk/Cnake-6110-release.apk"><b>apk/Cnake-6110-release.apk</b></a> — Optimized release build</li>
+        <li><a href="apk/Cnake-6110-debug.apk"><b>apk/Cnake-6110-debug.apk</b></a> — Debug build with symbols</li>
+      </ul>
+      <p><i>Copy <code>Cnake-6110.apk</code> directly to your device (e.g. Redmi 10 Prime) and tap to install immediately!</i></p>
+      <br />
+      <b>Key Highlights:</b>
+      <ul>
+        <li>🎯 <b>10×20 Dot Matrix</b> calibrated for 1080×2400 displays</li>
+        <li>⚡ <b>Sub-200 KB</b> zero-bloat native Canvas architecture</li>
+        <li>🔄 <b>Toroidal Wall Wrapping</b> on all four edges</li>
+        <li>👆 <b>Fluid Swipe Controls</b> with buffered turn queuing</li>
+        <li>💀 <b>Dead Snake Tap-Restart</b> & zero score HUD distraction</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
