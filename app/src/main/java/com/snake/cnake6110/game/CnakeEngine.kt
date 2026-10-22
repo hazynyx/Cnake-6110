@@ -8,16 +8,16 @@ class CnakeEngine(
     val rows: Int = 20
 ) {
     var state: GameState = GameState.READY
-        private set
+        internal set
 
     val snake = mutableListOf<GridPoint>()
     var currentDirection: Direction = Direction.UP
-        private set
+        internal set
 
     private val directionQueue = ArrayDeque<Direction>()
 
     var food: GridPoint = GridPoint(4, 5)
-        private set
+        internal set
 
     init {
         initGame()
